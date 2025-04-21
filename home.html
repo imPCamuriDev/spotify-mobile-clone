@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <script src="js/tailwind.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-zinc-900">
+    <div class="flex mt-2 ml-3 mr-3 w-100">
+      <div class="flex w-50">
+        <p class="font-sans text-neutral-200 font-bold">12:30</p>
+      </div>
+      <div class="flex w-50 justify-end items-center">
+        <i class="fa-solid fa-signal text-neutral-200 text-sm ml-2"></i>
+        <i class="fa-solid fa-wifi text-neutral-200 text-sm ml-2"></i>
+        <i
+          class="fa-solid fa-battery-three-quarters text-neutral-200 text-2xl ml-2"
+        ></i>
+      </div>
+    </div>
+
+    <div class="flex items-center mt-10">
+      <div><img src="img/prof.jpg" class="ml-3 mb w-10" style="border-radius: 30px;" alt="" /></div>
+      <div><button class="selected-button subtitle-texts font-normal ml-5">All</button></div>
+      <div><button class="unselected-button subtitle-texts font-normal ml-2">Music</button></div>
+      <div><button class="unselected-button subtitle-texts font-normal ml-2">Podcasts</button></div>
+    </div>
+
+    <div class="mt-6 container">
+
+        <!-- ROW 1 -->
+        <div class="flex ml-3">
+            <div style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/LIKED.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">Liked Songs</p>
+            </div>
+
+            <div class="ml-3" style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/out90.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">All Out 90s Hindi</p>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="flex ml-3 mt-2">
+            <div style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/diljit.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">Diljit Dosanjh Mix</p>
+            </div>
+
+            <div class="ml-3" style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/sangeet.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">Sangeet Night</p>
+            </div>
+        </div>
+
+        <!-- ROW 3 -->
+        <div class="flex ml-3 mt-2">
+            <div style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/allout00.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">All Out 00’s Hindi</p>
+            </div>
+
+            <div class="ml-3" style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/lori.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">Lori - Mother’s Lullabies</p>
+            </div>
+        </div>
+
+        <!-- ROW 4 -->
+        <div class="flex ml-3 mt-2">
+            <div style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/lofi.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">Lofi chill</p>
+            </div>
+
+            <div class="ml-3" style="background-color: #292929;" style="width: 60px; border-radius: 10px 0px 0px 10px;">
+                <img src="img/energybooster.png">
+            </div>
+            <div class="flex justify-center items-center w-35" style="background-color: #292929; border-radius: 0px 10px 10px 0px;">
+                <p class="subtitle-texts text-center text-neutral-200 font-bold p-3">Energy booster (HINDI)</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="ml-3">
+        <p class="text-xl mt-10 text-neutral-200 font-semibold poppins">Picked for you</p>
+        <div class="mt-2 flex">
+            <div style="background-color: #292929; width: 150px; border-radius: 10px 0px 0px 10px;"><img src="img/image-picked.png" style="border-radius: 10px 0px 0px 10px;" alt=""></div>
+            <div style="background-color: #292929; border-radius: 0px 10px 10px 0px;" class="w-63 text-neutral-200">
+                <div class="ml-4 mt-2">
+                    <p class="circular-spotify small-text">Episode • Jan 7</p>
+                    <p class="poppins font-bold w-50" style="font-size: 12px;">Billions Club Live with The Weeknd: A Concert Film</p>
+                    <p class="circular-spotify small-text" style="font-style: 10px !important;">In the first-ever Billions Club Live concert film, The Weeknd delivers an unforgettable one-night-only performance, celebrating his record-b...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ml-3">
+        <p class="text-xl mt-10 text-neutral-200 font-semibold poppins">Based on your recent listening</p>
+    </div>
+
+    <div class="absolute bottom-20 ml-2 w-102" style="background-color: #005A59; border-radius: 8px;">
+        <div class="flex p-1">
+            <img src="img/image-30.png">
+            <div>
+                <p class="circular-spotify text-neutral-200 ml-3" style="font-size: 12px;">Pani Da Rang - Male Vocals</p>
+                <p class="circular-spotify small-text ml-3" style="font-size: 12px;">Ayushmann Khurrana, Rochak Kohli</p>
+            </div>
+            <img src="img/ico-32-musical-box.png" class="ml-20" alt="">
+            <img src="img/ico-32-play.png" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="flex justify-center items-end absolute bottom-0 left-14" style="height: 35vh !important">
+      <hr class="mb-3 w-80 bg-white" id="phone-bar"/>
+    </div>
+  </body>
+</html>

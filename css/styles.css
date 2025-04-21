@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'spotify-font'; /* Replace with your desired font name */
+    src: url('fonts/circular-spotify') format('otf')
+  }
+
+#phone-bar {
+    padding: .2rem 0.75rem !important;
+    border-radius: 10px;
+}
+
+.selected-button {
+    background-color: #1ED760;
+    padding: 7px 16px;
+    border: 0px;
+    border-radius: 16px;
+    color:#121212;
+}
+
+.unselected-button {
+    background-color: #313131;
+    padding: 7px 16px;
+    border: 0px;
+    border-radius: 16px;
+    color:#DEDEDE;
+}
+
+.title-texts {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.subtitle-texts {
+    line-height: 16px;
+    font-size: 12px;
+    font-family: "spotify-font", sans-serif;
+}
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.circular-spotify {
+    font-family: 'spotify-font', sans-serif;
+}
+
+.small-text {
+    color: #B3B3B3;
+    font-size: 12px;
+}
