@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Search</title>
+    <script src="assets/js/tailwind.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-zinc-900">
+    <!-- PHONE INFO -->
+    <div class="flex mt-2 ml-3 mr-3 w-100 fixed top-0">
+      <div class="flex w-50">
+        <p class="font-sans text-neutral-200 font-bold">12:30</p>
+      </div>
+      <div class="flex w-50 justify-end items-center">
+        <i class="fa-solid fa-signal text-neutral-200 text-sm ml-2"></i>
+        <i class="fa-solid fa-wifi text-neutral-200 text-sm ml-2"></i>
+        <i
+          class="fa-solid fa-battery-three-quarters text-neutral-200 text-2xl ml-2"
+        ></i>
+      </div>
+    </div>
+
+    <!-- NAVBAR USER -->
+    <div class="flex items-center mt-10">
+      <div>
+        <img
+          src="assets/img/prof.jpg"
+          class="ml-3 mb w-10"
+          style="border-radius: 30px"
+          alt=""
+        />
+      </div>
+      <div class="poppins text-white text-3xl ml-5" style="font-weight: 600">
+        Search
+      </div>
+      <div class="flex w-58 justify-end">
+        <img src="assets/img/camera.png" class="mt-1" alt="" />
+      </div>
+    </div>
+
+    <!-- INPUT SEARCH -->
+    <div class="ml-3 container w-75 mt-4">
+      <div class="relative m-0 p-0">
+        <i
+          class="fa-solid fa-magnifying-glass text-zinc-950 absolute left-4 top-1/2 transform -translate-y-1/2 text-xl"
+        ></i>
+        <input
+          class="bg-neutral-100 w-100 p-3 pl-10 text-zinc-900"
+          type="text"
+          style="border-radius: 10px"
+          placeholder="What do you want to listen to?"
+        />
+      </div>
+    </div>
+
+    <div class="ml-3 mt-6 w-100">
+        <div><p class="text-2xl text-neutral-200 font-semibold poppins mb-5">Start browsing</p></div>
+        <div>
+            <!-- ROW 1 -->
+            <div class="flex justify-between">
+                <div class=""><img src="assets/img/music.png"></div>
+                <div><img src="assets/img/podcast.png"></div>
+            </div>
+
+            <!-- ROW 2 -->
+            <div class="flex justify-between mt-5">
+                <div class=""><img src="assets/img/liveevents.png"></div>
+                <div><img src="assets/img/i-pop.png"></div>
+            </div>
+
+        </div>
+    </div>  
+
+    <div class="ml-3 w-100 mt-6">
+        <p class="text-2xl poppins text-neutral-200 font-semibold mb-3">Picked for you</p>
+        <div>
+            <img src="assets/img/BG.png" width="100%">
+        </div>
+    </div>
+
+    <div class="ml-3 w-100 mt-6">
+        <p class="text-2xl poppins text-neutral-200 font-semibold mb-3">Discover something new</p>
+        <div class="flex justify-between mr-3">
+            <img src="assets/img/nfl.png" alt="">
+            <img src="assets/img/bird.png" alt="">
+            <img src="assets/img/rockschool.png" style="border-radius: 5px;" alt="">
+        </div>
+    </div>
+
+    <div class="absolute bottom-20 ml-2 w-102" style="background-color: #005A59; border-radius: 8px;">
+        <div class="flex p-1">
+            <img src="assets/img/image-30.png">
+            <div>
+                <p class="circular-spotify text-neutral-200 ml-3" style="font-size: 12px;">Pani Da Rang - Male Vocals</p>
+                <p class="circular-spotify small-text ml-3" style="font-size: 12px;">Ayushmann Khurrana, Rochak Kohli</p>
+            </div>
+            <img src="assets/img/ico-32-musical-box.png" class="ml-20" alt="">
+            <img src="assets/img/ico-32-play.png" alt="">
+        </div>
+    </div>
+
+    <!-- NAVIGATE BAR -->
+    <div
+    class="flex justify-around bottom-9 absolute bg-gradient-to-t from-zinc-900 via-zinc-900 to-slate-800/0 w-106"
+    >
+      <a href="home.html"><img src="assets/img/home.png" alt="" /></a>
+      <img src="assets/img/search.png" alt="" />
+      <a href="libs.html"><img src="assets/img/libs.png" alt="" /></a>
+      <img src="assets/img/premium.png" alt="" />
+    </div>
+
+    <div class="flex justify-center items-end absolute left-3 bottom-0 w-100">
+      <hr class="mb-3 w-40 bg-white" id="phone-bar" />
+    </div>
+  </body>
+</html>

@@ -9,6 +9,10 @@
     border-radius: 10px;
 }
 
+body {
+    overflow: hidden !important;
+}
+
 .selected-button {
     background-color: #1ED760;
     padding: 7px 16px;
