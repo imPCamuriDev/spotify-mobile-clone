@@ -1,1 +1,1 @@
-428x800 for better experience
+428x843 for better experience
